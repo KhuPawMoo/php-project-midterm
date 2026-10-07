@@ -1,0 +1,33 @@
+body { font-family: -apple-system, sans-serif; background: #f4f6f9; color: #333; padding: 20px; }
+.container { max-width: 950px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.container-small { max-width: 550px; }
+.stats-bar { display: flex; gap: 20px; background: #f1f5f9; padding: 12px; border-radius: 6px; margin-bottom: 20px; }
+.controls-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 10px; }
+.search-form { display: flex; gap: 8px; }
+input[type="text"], input[type="date"], select, textarea { width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 4px; box-sizing: border-box; }
+.search-form input, .search-form select { width: auto; }
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: 600; }
+.checkbox-group { display: flex; align-items: center; gap: 8px; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+th { background-color: #f8fafc; }
+.completed-row { opacity: 0.65; background-color: #f8fafc; }
+.completed-row td strong { text-decoration: line-through; }
+.overdue-row { background-color: #fef2f2; }
+.badge { padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: bold; }
+.badge-success { background: #dcfce7; color: #166534; }
+.badge-warning { background: #fef9c3; color: #854d0e; }
+.badge-danger { background: #fee2e2; color: #991b1b; }
+.priority-high { color: #dc2626; font-weight: bold; }
+.priority-medium { color: #d97706; font-weight: bold; }
+.priority-low { color: #2563eb; font-weight: bold; }
+.btn { padding: 8px 14px; border-radius: 4px; text-decoration: none; font-size: 0.9em; border: none; cursor: pointer; display: inline-block; }
+.btn-primary { background: #2563eb; color: #fff; }
+.btn-secondary { background: #475569; color: #fff; }
+.btn-danger { background: #dc2626; color: #fff; }
+.btn-outline { background: transparent; border: 1px solid #cbd5e1; color: #333; }
+.btn-small { padding: 4px 8px; font-size: 0.8em; }
+.alert { padding: 12px; border-radius: 4px; margin-bottom: 15px; }
+.alert-success { background: #dcfce7; color: #166534; }
+.alert-danger { background: #fee2e2; color: #991b1b; }

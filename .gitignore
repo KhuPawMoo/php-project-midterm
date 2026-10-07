@@ -1,0 +1,12 @@
+# Database connection credentials
+db.php
+
+# macOS system files
+.DS_Store
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+
+# Composer dependencies
+/vendor/
